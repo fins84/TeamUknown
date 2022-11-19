@@ -40,9 +40,6 @@ capture = cv.VideoCapture(URL + ":81/stream")
 # Get Video frame size :
 width  = capture.get(cv.CAP_PROP_FRAME_WIDTH)   # float `width`
 height = capture.get(cv.CAP_PROP_FRAME_HEIGHT)  # float `height`
-# or
-#width  = capture.get(3)  # float `width`
-#height = capture.get(4)  # float `height`
 
 print('width, height:', width, height)
 
